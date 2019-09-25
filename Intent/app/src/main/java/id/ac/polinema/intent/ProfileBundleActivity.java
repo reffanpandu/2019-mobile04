@@ -31,7 +31,7 @@ public class ProfileBundleActivity extends AppCompatActivity {
             // TODO: display value here
             usernameText.setText(extras.getString(USERNAME_KEY));
             nameText.setText(extras.getString(NAME_KEY));
-            ageText.setText(extras.getString(AGE_KEY));
+            ageText.setText(String.valueOf(extras.getInt(AGE_KEY)));
         }
     }
 }
